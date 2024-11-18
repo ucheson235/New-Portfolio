@@ -11,6 +11,17 @@
   </head>
   <body>
     <div id="root"></div>
+    <script>
+      const redirectToIndex = () => {
+        const pathname = window.location.pathname;
+        const filename = pathname.substr(pathname.lastIndexOf('/') + 1);
+        if (!filename.includes('.') && pathname !== '/') {
+          window.location.href = '/New-Portfolio/#' + pathname;
+        }
+      };
+      redirectToIndex();
+    </script>
+    
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
