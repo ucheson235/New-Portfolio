@@ -1,4 +1,6 @@
 import { motion } from "framer-motion";
+import image  from "public/images.jpg";
+
 
 const Hero = () => {
 	return (
@@ -16,14 +18,14 @@ const Hero = () => {
              animate={{y: 0, opacity:1}}
              transition={{duration: 0.8, delay: 0.2}}
             >
-				<img
-					src="/Asset/image7.jpg"
-					alt="Hero Image"
-					className="w-[300px] cursor-pointer rounded-full shadow-xl shadow-indigo-900
-       transition-all duration-300 hover:translate-y-5
-       hover:scale-105 hover:shadow-2xl hover:bg-indigo-600
-       md:w-[350px]"
-				/>
+			<img
+			src="/image.jpg"
+			 alt="Hero Image"
+			className="w-[300px] cursor-pointer rounded-full shadow-xl shadow-indigo-900
+			transition-all duration-300 hover:translate-y-5
+			hover:scale-105 hover:shadow-2xl hover:bg-indigo-600
+			md:w-[350px]"
+					/>
             </motion.div>
 
 				<motion.div 

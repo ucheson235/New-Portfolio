@@ -1,9 +1,5 @@
 import { motion } from "framer-motion";
-import image1 from "/Asset/image1.jpg";
-import image2 from "/Asset/image2.jpg";
-import image3 from "/Asset/image3.jpg";
-import image4 from "/Asset/image4.jpg";
-import image5 from "/Asset/image5.jpg";
+import {image1, image2, image3, image4, image5} from "public/images.jpg";
 
 // Project data
 const ProjectsData = [
